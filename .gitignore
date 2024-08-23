@@ -1,0 +1,28 @@
+# Виртуальное окружение
+env/
+venv/
+
+# Файл конфигурации окружения
+.env
+
+# Пакеты Python
+*.pyc
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+/static/
+/media/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Системные файлы
+.DS_Store
+Thumbs.db
